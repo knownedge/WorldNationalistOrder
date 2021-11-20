@@ -8,12 +8,12 @@ form,h1,h2,h3,h4,li,hr,input,table,tr,td,th,pre { margin: 0 }
 
 .TableBorder_Dark {border: 4px solid; color:#ccc; background-color:#4444; border-color: #3333; border-top-color:#5555; border-left-color:#5555; }
 
-.bar-16-orange { background-color:#fc0; background-image: url("images/bar-16-orange.gif"); color: #000; font-size:11;}
-.bar-16-purple { background-color:#0c0; background-image: url("images/bar-16-dpurple.gif"); color: #fc0; font-size:11}
-.bar-16-green { background-color:#0c0; background-image: url("images/bar-16-green.gif"); color: #fff; font-size:11}
-.bar-16-black { background-color:#444; background-image: url("images/bar-16-black.gif"); color: #ccc; font-size:11}
-.bar-24-orange { background-color:#fc0; background-image: url("images/bar-24-orange.gif"); color: #000; font-size:20 }
-.bar-24-black { background-color:#444; background-image: url("images/bar-24-black.gif"); color: #ccc; font-size:20 }
+.bar-16-orange { background-color:#fc0; background-image: url("bar-16-orange.gif"); color: #000; font-size:11;}
+.bar-16-purple { background-color:#0c0; background-image: url("bar-16-dpurple.gif"); color: #fc0; font-size:11}
+.bar-16-green { background-color:#0c0; background-image: url("bar-16-green.gif"); color: #fff; font-size:11}
+.bar-16-black { background-color:#444; background-image: url("bar-16-black.gif"); color: #ccc; font-size:11}
+.bar-24-orange { background-color:#fc0; background-image: url("bar-24-orange.gif"); color: #000; font-size:20 }
+.bar-24-black { background-color:#444; background-image: url("bar-24-black.gif"); color: #ccc; font-size:20 }
 
 .bar-24-black-444 { background-color:#444; color: #ccc;}
 
@@ -87,7 +87,7 @@ A.button:hover {text-decoration: underline; color: #800;}
  /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #fc0;
-  background-image: url("images/bar-16-orange.gif");
+  background-image: url("bar-16-orange.gif");
   color: #000;
   cursor: pointer;
   padding: 1px;
@@ -101,7 +101,7 @@ A.button:hover {text-decoration: underline; color: #800;}
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-image: url("images/bar-16-green.gif");
+  background-image: url("bar-16-green.gif");
   color: #ddd;
 
 }

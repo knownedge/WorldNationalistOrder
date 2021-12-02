@@ -101,7 +101,7 @@ A.button:hover {text-decoration: underline; color: #800;}
 .collapsible {
   background-color: #483D65;
   background-image: url("images/bar-16-orange.gif");
-  color: #ccc;
+  color: #000;
   cursor: pointer;
   padding: 1px;
   width: 100%;

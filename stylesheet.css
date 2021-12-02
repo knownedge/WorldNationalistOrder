@@ -100,7 +100,7 @@ A.button:hover {text-decoration: underline; color: #800;}
  /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #483D65;
-  background-image: url("images/bar-16-black.gif");
+  background-image: url("images/bar-16-orange.gif");
   color: #ccc;
   cursor: pointer;
   padding: 1px;

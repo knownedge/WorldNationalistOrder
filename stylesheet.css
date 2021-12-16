@@ -75,10 +75,10 @@ a.treelink1:visited {text-decoration: none; color: #933;}
 a.treelink1:active {text-decoration: none; color: #b44;}
 a.treelink1:hover {text-decoration: underline; color: #b44;}
 
-a.treelink2:link {text-decoration: none; color: #060}
-a.treelink2:visited {text-decoration: none; color: #060;}
-a.treelink2:active {text-decoration: none; color: #0a0;}
-a.treelink2:hover {text-decoration: underline; color: #0a0;}
+a.treelink2:link {text-decoration: none; color: #6B5E3B}
+a.treelink2:visited {text-decoration: none; color: #6B5E3B;}
+a.treelink2:active {text-decoration: none; color: #933;}
+a.treelink2:hover {text-decoration: underline; color: #933;}
 
 .TextColor_DarkRed {color: #793131;}
 .TextColor_DarkRed2 {color: #6F2D2D;}
@@ -113,7 +113,7 @@ A.button:hover {text-decoration: underline; color: #800;}
  /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #400;
-  background-image: url("images/bar-16-dred.gif");
+  background-image: url("images/bar-24-dred.gif");
   color: #888;
   cursor: pointer;
   padding: 1px;
@@ -127,8 +127,8 @@ A.button:hover {text-decoration: underline; color: #800;}
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-image: url("images/bar-16-dblack.gif");
-  color: #933;
+  background-image: url("images/bar-24-black.gif");
+  color: #ccc;
 
 }
 

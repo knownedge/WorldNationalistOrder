@@ -70,12 +70,12 @@ form,h1,h2,h3,h4,li,hr,input,table,tr,td,th,pre { margin: 0 }
 .text-size-14 {font-size:14;}
 .text-size-22 {font-size:22;}
 
-a.treelink1:link {text-decoration: none; color: #933}
+a.treelink1:link {text-decoration: none; color: #933;}
 a.treelink1:visited {text-decoration: none; color: #933;}
 a.treelink1:active {text-decoration: none; color: #b44;}
 a.treelink1:hover {text-decoration: underline; color: #b44;}
 
-a.treelink2:link {text-decoration: none; color: #6B5E3B}
+a.treelink2:link {text-decoration: none; color: #6B5E3B;}
 a.treelink2:visited {text-decoration: none; color: #6B5E3B;}
 a.treelink2:active {text-decoration: none; color: #933;}
 a.treelink2:hover {text-decoration: underline; color: #933;}

@@ -12,9 +12,17 @@ form,h1,h2,h3,h4,li,hr,input,table,tr,td,th,pre { margin: 0 }
 .bar-24-black { background-color:#444; background-image: url("images/bar-24-black.gif"); color: #ccc; font-size:20}
 .bar-40-black { background-color:#444; background-image: url("images/bar-40-black.gif"); color: #ccc; font-size:30}
 
+.bar-16-black2 { background-color:#222; background-image: url("images/bar-16-dblack.gif"); color: #999; font-size:11}
+.bar-24-black2 { background-color:#222; background-image: url("images/bar-24-dblack.gif"); color: #999; font-size:20}
+
 .bar-16-white { background-color:#ccc; background-image: url("images/bar-16-white.gif"); color: #000; font-size:11}
 .bar-24-white { background-color:#ccc; background-image: url("images/bar-24-white.gif"); color: #000; font-size:20}
 .bar-40-white { background-color:#ccc; background-image: url("images/bar-40-white.gif"); color: #000; font-size:30}
+
+.bar-16-red2 { background-color:#400; background-image: url("images/bar-16-dred.gif"); color: #888; font-size:11}
+.bar-24-red2 { background-color:#400; background-image: url("images/bar-24-dred.gif"); color: #888; font-size:20}
+.bar-16-gold { background-color:#5E5434; background-image: url("images/bar-16-gold.gif"); color: #888; font-size:11}
+.bar-24-gold { background-color:#5E5434; background-image: url("images/bar-24-gold.gif"); color: #888; font-size:20}
 
 .bar-16-orange { background-color:#fc0; background-image: url("images/bar-16-orange.gif"); color: #000; font-size:11;}
 .bar-24-orange { background-color:#fc0; background-image: url("images/bar-24-orange.gif"); color: #000; font-size:20;}
@@ -36,7 +44,7 @@ form,h1,h2,h3,h4,li,hr,input,table,tr,td,th,pre { margin: 0 }
 
 
 
-.CellBackground_000 {border: 2px solid; color:#ccc; background-color:#000; border-color: #222; border-top-color:#444; border-left-color:#444; }
+.CellBackground_000 {border: 2px solid; color:#999; background-color:#111; border-color: #000; border-top-color:#222; border-left-color:#222; }
 .CellBackground_444 {border: 2px solid; color:#ccc; background-color:#444; border-color: #333; border-top-color:#555; border-left-color:#555; }
 .CellBackground_555 {border: 2px solid; color:#fff; background-color: #555; border-color: #333; border-top-color:#666; border-left-color:#666;}
 .CellBackground_999 {border: 2px solid;	color:#ccc;	background-color: #999; border-color: #777;	border-top-color:#bbb;	border-left-color:#bbb; }
@@ -44,6 +52,9 @@ form,h1,h2,h3,h4,li,hr,input,table,tr,td,th,pre { margin: 0 }
 .CellBackground_DDD {border: 2px solid; color:#000; background-color: #ddd; border-color: #bbb; border-top-color:#eee; border-left-color:#eee; }
 .CellBackground_EEE {border: 2px solid; color:#000; background-color: #eee; border-color: #bbb; border-top-color:#fff; border-left-color:#fff; }
 
+.CellBackground_gold-dark {border: 2px solid; color:#000; background-color: #5E5434; border-color: #5E5434; border-top-color:#6B5E3B; border-left-color:#5E5434;}
+.CellBackground_red-dark {border: 2px solid; color:#888; background-color: #300; border-color: #200; border-top-color:#500; border-left-color:#500;}
+.CellBackground_red-darkimg {border: 2px solid; color:#888; background-color: #300; border-color: #300; border-top-color:#300; border-left-color:#300;}
 
 .CellBackground_orange {border: 2px solid; color:#000; background-color: #fc0; border-color: #fa0; border-top-color:#ff0; border-left-color:#ff0;}
 .CellBackground_orange-dark {border: 2px solid; color:#fff; background-color: #f90; border-color: #f70; border-top-color:#fc0; border-left-color:#fc0;}
@@ -59,16 +70,18 @@ form,h1,h2,h3,h4,li,hr,input,table,tr,td,th,pre { margin: 0 }
 .text-size-14 {font-size:14;}
 .text-size-22 {font-size:22;}
 
-a.treelink1:link {text-decoration: none; color: #0a0}
-a.treelink1:visited {text-decoration: none; color: #0a0;}
-a.treelink1:active {text-decoration: none; color: #fc0;}
-a.treelink1:hover {text-decoration: underline; color: #fc0;}
+a.treelink1:link {text-decoration: none; color: #933}
+a.treelink1:visited {text-decoration: none; color: #933;}
+a.treelink1:active {text-decoration: none; color: #b44;}
+a.treelink1:hover {text-decoration: underline; color: #b44;}
 
 a.treelink2:link {text-decoration: none; color: #060}
 a.treelink2:visited {text-decoration: none; color: #060;}
 a.treelink2:active {text-decoration: none; color: #0a0;}
 a.treelink2:hover {text-decoration: underline; color: #0a0;}
 
+.TextColor_DarkRed {color: #793131;}
+.TextColor_DarkRed2 {color: #6F2D2D;}
 
 .TextColor_000 {color: #000;}
 .TextColor_FFF {color: #FFF;}
@@ -99,9 +112,9 @@ A.button:hover {text-decoration: underline; color: #800;}
 
  /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #483D65;
-  background-image: url("images/bar-16-orange.gif");
-  color: #000;
+  background-color: #400;
+  background-image: url("images/bar-16-dred.gif");
+  color: #888;
   cursor: pointer;
   padding: 1px;
   width: 100%;
@@ -114,8 +127,8 @@ A.button:hover {text-decoration: underline; color: #800;}
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-image: url("images/bar-16-green.gif");
-  color: #fff;
+  background-image: url("images/bar-16-dblack.gif");
+  color: #933;
 
 }
 
